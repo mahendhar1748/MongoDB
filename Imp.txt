@@ -1,0 +1,55 @@
+===========================================================================================================================================
+
+--> In Mongodb., data stored in the from of JSON Document(Document oriented approach). The retreival process in mongodb is also very fast.
+Hence it is the best NO SQL database
+
+--> mongodb follows dynamic input approach
+
+--> mongodb supports GEOSPATIAL QUERY
+     --> Geospacial query is nothing but., we have to recommend a product to a customer based on GEO Location
+     --> Longitude and latitude information is stored in mongodb., by that we can recommend
+
+--> Mongodb., it can easily integrate with BIGDATA HADOOP.
+--> Mongodb is highly scalable,very fast
+
+------- Limitations -------------
+
+--> In Banking system, where heavy transactions are going on. mongodb wont much effective(use structured databases)
+--> mongodb is not useful in tightly coupled systems( systems which are intract each other strictly in a continious manner )
+
+==========================================================================================================================================
+
+
+
+
+
+
+
+
+=======================================================================================================================================
+
+DROP --> The drop() function removes the specific collection from database
+REMOVE --> the remove() function deletes documents from a collection
+
+
+CREATE INDEX ---> Builds an index on a collection
+REINDEX ----> Rebuilds all existing indexes
+
+db.hostInfo() ---> Returns info about the system 
+
+Renaming a collection ----> db.collection.renameCollection()
+
+Sharding ---> It is amethod of partioning data across multiple servers to improve performance and scalability
+
+MapReduce in Mongodb ---> It is the Data Processing technique in mongodb that involves mapping data to a set of 
+Key-Value pairs,reducing the values based on the keys,and aggregating the results
+
+GridFS ---> Is a specification for storing and retreiving large files, such as images and videos, in Mongodb
+
+Primary Key in mongodb is a unique identifier for a document,
+while a secondary key is used for indexing and quering data
+
+Mongodb supports multi-document transactions that allow for atomicity,consistency,isolation,and durability(ACID) properties
+
+A join In mongodb involves combining data from multiple collections,
+while a lookup involves retreving related data from another collection
